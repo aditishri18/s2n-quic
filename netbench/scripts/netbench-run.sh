@@ -9,7 +9,6 @@ set -e
 
 ARTIFACT_FOLDER="target/release"
 NETBENCH_ARTIFACT_FOLDER="target/netbench"
-source "$HOME/.cargo/env"
 # the run_trial function will run the request-response scenario
 # with the driver passed in as the first argument
 run_trial() {
